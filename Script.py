@@ -1,3 +1,6 @@
+from Database import database
+from RecommenderFunction import *
+
 def genre_select():
     genre = False
     while genre == False:
@@ -24,7 +27,8 @@ def genre_select():
             Sport
             Thriller
             War
-            Western""")
+            Western
+            Any""")
             continue
         if lower_value == "action":
             genre = "Action"
@@ -67,7 +71,9 @@ def genre_select():
         if lower_value == "war":
             genre = "War"
         if lower_value == "western":
-            genre = "Westernr"         
+            genre = "Western"
+        if lower_value == "any":
+            genre = "Any"         
         else:
             print("Invalid value. For a list of genres please press 'L'.")
     return genre
@@ -140,8 +146,8 @@ while running == True:
     print("You have selected " + length + " .")
     decade = decade_select()
     print("You have selected " + decade + " .")
-    print("We will now find the top ten rated films matching your critera, with at least 1000 reviews.")
-    #DatabaseSearchGoesHere
+    print("We will now find the top ten rated films matching your critera, with at least 1000 reviews. Please wait.")
+    print(recommender_function(genre, length, decade))
     end_function()
 
 

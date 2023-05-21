@@ -1,0 +1,82 @@
+https://git-lfs.com/
+
+https://developer.imdb.com/non-commercial-datasets/
+Join on tconst (string)
+
+Then I can ask the user for genre, decade, long or short, and then display the top 10 rates films?
+Action
+Adventure
+Biography
+Animation
+Comedy
+Crime
+Documentary
+Drama
+Family
+Fantasy
+History
+Horror
+Music
+Mystery
+News
+Romance
+Sci-Fi
+Sport
+Thriller
+War
+Western
+
+
+
+
+['Romance' 'Documentary,News,Sport' '\\N' 'Action,Adventure,Biography'
+ 'Drama' 'Adventure,Fantasy' 'Comedy' 'Drama,War' 'Documentary' 'Crime'
+ 'Drama,Romance' 'Adventure,Drama' 'Biography,Drama,Family'
+ 'Drama,History' 'War' 'Biography,Drama,History' 'Sci-Fi'
+ 'Adventure,Drama,Fantasy' 'Biography,Drama' 'Documentary,War'
+ 'Biography,Drama,Romance' 'History,War' 'Action,Drama,Thriller'
+ 'Crime,Thriller' 'Adventure' 'Drama,Thriller' 'Western' 'Drama,Fantasy'
+ 'Comedy,Drama' 'Crime,Drama' 'Comedy,Fantasy' 'Adventure,Drama,Romance'
+ 'Drama,Sport' 'Crime,Drama,Mystery' 'Biography' 'Drama,Fantasy,Horror'
+ 'Action,Adventure' 'Comedy,Crime' 'Adventure,Comedy'
+ 'Documentary,Western' 'Crime,Drama,Horror' 'Adventure,Biography,Western'
+ 'Adventure,Drama,History' 'Action,Drama,Romance' 'Drama,Mystery' 'Action'
+ 'Fantasy' 'Adventure,Horror' 'Horror' 'Adventure,Comedy,Family'
+ 'Crime,Horror,Mystery' 'History,Western' 'Thriller'
+ 'Action,Adventure,Drama' 'Adventure,Music,Mystery' 'Mystery'
+ 'Action,Crime,Drama' 'Drama,History,Romance' 'Action,Adventure,Romance'
+ 'Drama,Western' 'Action,Crime' 'Comedy,Drama,Romance' 'Drama,History,War'
+ 'Adventure,Mystery' 'Documentary,Sport' 'Comedy,Thriller'
+ 'Adventure,Family,Fantasy' 'Adventure,Comedy,Drama' 'Drama,Sci-Fi'
+ 'Action,Drama,History' 'Comedy,Romance' 'Drama,Romance,War'
+ 'Comedy,Western' 'Crime,Drama,Romance' 'Adventure,Romance'
+ 'Adventure,Crime,Drama' 'Romance,Western' 'Adventure,Comedy,Western'
+ 'Drama,Horror,Sci-Fi' 'Action,Adventure,Crime' 'Adventure,Drama,Mystery'
+ 'Drama,Horror' 'Mystery,Thriller' 'Adventure,Romance,Western'
+ 'Biography,Crime,Drama' 'Comedy,Drama,Sport' 'Drama,Mystery,Romance'
+ 'Adventure,Crime,Thriller' 'Action,Adventure,Comedy'
+ 'Drama,Music,Romance' 'Action,Adventure,Sci-Fi' 'Action,Drama'
+ 'Adventure,Comedy,Romance' 'Action,Drama,War' 'Adventure,History'
+ 'Crime,Drama,Thriller' 'Horror,Mystery' 'Biography,Comedy,Drama'
+ 'Action,Biography,Western' 'Adventure,Western' 'Comedy,Crime,Drama'
+ 'Comedy,Sport' 'Drama,Romance,Thriller' 'Horror,Sci-Fi' 'Adventure,Crime'
+ 'Action,Adventure,War' 'Drama,Romance,Western' 'Action,Comedy,Romance'
+ 'Comedy,Sci-Fi' 'Comedy,Drama,Mystery' 'Comedy,Romance,Western'
+ 'Action,Romance,Western' 'Crime,Mystery' 'Action,Comedy,Drama'
+ 'Adventure,Romance,Thriller' 'Fantasy,Sci-Fi' 'Adventure,Drama,Western'
+ 'Fantasy,Romance' 'Drama,Thriller,War' 'History' 'Comedy,Family,Fantasy'
+ 'Comedy,Drama,Western' 'Animation,Comedy,Drama' 'Drama,Family,Fantasy'
+ 'Fantasy,Thriller' 'Biography,Western' 'Comedy,Fantasy,Romance'
+ 'Adventure,Fantasy,Sci-Fi' 'Comedy,Mystery' 'Adventure,Family'
+ 'Action,Thriller' 'Drama,Horror,Mystery' 'Drama,History,Western'
+ 'Adventure,War' 'Drama,Romance,Sport' 'Comedy,Drama,Family'
+ 'Adventure,Crime,Romance' 'Comedy,Mystery,Thriller'
+ 'Drama,Fantasy,Sci-Fi' 'Music' 'Mystery,War' 'History,Romance'
+ 'Adventure,Comedy,Crime' 'Animation' 'Family,Fantasy'
+ 'Action,War,Western' 'Biography,Drama,War' 'Comedy,Romance,War'
+ 'Crime,Thriller,Western' 'Action,Drama,Music' 'Crime,Drama,Western'
+ 'Comedy,War' 'Drama,Family,Romance' 'Drama,Family' 'War,Western'
+ 'Crime,Drama,War' 'Animation,Comedy' 'Adventure,Fantasy,Romance'
+ 'Action,Western' 'Comedy,Drama,War' 'Crime,Mystery,Thriller'
+ 'Crime,Drama,History' 'Action,Crime,Thriller' 'Action,Drama,Western'
+ 'Comedy,Crime,Western' 'Crime,Western']
