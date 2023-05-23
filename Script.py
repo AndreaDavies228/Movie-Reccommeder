@@ -1,4 +1,3 @@
-from Database import database
 from RecommenderFunction import *
 
 def genre_select():
@@ -75,7 +74,8 @@ def genre_select():
         if lower_value == "any":
             genre = "Any"         
         else:
-            print("Invalid value. For a list of genres please press 'L'.")
+            if genre == False:
+                print("Invalid value.")
     return genre
 
 def length_select():
@@ -91,36 +91,36 @@ def length_select():
             length = 'Long'
         if value == 'any':
             length = 'Any Length'
-        if value == 'Any':
-            length = 'Any Length'
         else:
-            print("Invalid value. Please select 'short' (under one hour), 'medium' (between one and two hours), 'long' (over two hours) or 'any'.")
+            if length == False:
+                print("Invalid value.")
     return length
 
 def decade_select():
     decade = False
     while decade == False:
         value = input("What decade would you like to watch a movie from? Please select '60s', '70s', '80s', '90s', '2000s', '2010s','2020s' or 'Any'.")
-        if value == '60s':
+        if value == '60s' or value == '60':
             decade = '60s'
-        if value == '70s':
+        if value == '70s' or value == '70':
             decade = '70s'
-        if value == '80s':
+        if value == '80s' or value == '80':
             decade = '80s'
-        if value == '90s':
+        if value == '90s' or value == '90':
             decade = '90s'
-        if value == '2000s':
+        if value == '2000s' or value == '2000':
             decade = '2000s'
-        if value == '2010s':
+        if value == '2010s' or value == '2010':
             decade = '2010s'
-        if value == '2020s':
+        if value == '2020s' or value == '2020':
             decade = '2020s'    
         if value == 'any':
             decade = 'Any'
         if value == 'Any':
             decade = 'Any'      
         else:
-            print("Invalid value. Please select '60s', '70s', '80s', '90s', '2000s', '2010s','2020s' or 'Any'.")
+            if decade == False:
+                print("Invalid value.")
     return decade
 
 def end_function():
