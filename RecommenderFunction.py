@@ -40,6 +40,7 @@ def recommender_function(genre, length, decade, df=df):
 
     df = df[["primaryTitle", "genres", "runtimeMinutes", "startYear", "averageRating"]]
     df = df.sort_values("averageRating", ascending = False)
+    df.rename(columns={"primaryTitle": "Title", "genres": "Genres", "startYear": "Year", "averageRating": "Average IMDb Rating"}, inplace=True)
     df = df.head(10) 
     return df
 
