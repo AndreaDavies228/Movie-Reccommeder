@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from RecommenderFunction import *
 from tabulate import tabulate
 
