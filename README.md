@@ -1,7 +1,7 @@
 # Movie Recommender Tool
 
-This is a movie recommender tool created in Python to be used in ther terminal.
-It recommends movies hightly rated on IMDb based on user selected critera: Genre, length and decade released.
+This is a movie recommender tool created in Python to be used in the terminal.
+It recommends movies highly rated on IMDb based on user selected critera: Genre, length and decade released.
 
 ## Background
 
@@ -11,9 +11,10 @@ This tool was created as a project forming part of my Codecademy computer scienc
 
 ![Top rated medium length history movies from the 80s](https://github.com/AndreaDavies228/Movie-Recommeder/blob/main/Movies.jpg)
 
-## Files
+## Instructions and Files
 
-The Script.py file is used for running the tool, with the recommender function itself stored in the RecommenderFunction.py file.
+To run the tool, execute the Script.py file in Python 3.
+The recommender function itself is stored in the RecommenderFunction.py file.
 Database.py was used to originally create the Database.tsv file from the IMDb data, and is not longer part of the active program.
 
 ## Author
