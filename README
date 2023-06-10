@@ -9,6 +9,8 @@ This tool was created as a project forming part of my Codecademy computer scienc
 
 ## Sample Image
 
+![Top rated medium length history movies from the 80s](https://github.com/AndreaDavies228/Movie-Recommeder/blob/main/Movies.jpg)
+
 ## Files
 
 The Script.py file is used for running the tool, with the recommender function itself stored in the RecommenderFunction.py file.
