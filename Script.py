@@ -1,4 +1,5 @@
 from RecommenderFunction import *
+from tabulate import tabulate
 
 def genre_select():
     genre = False
@@ -146,13 +147,13 @@ while running == True:
     print("You have selected " + length + ".")
     decade = decade_select()
     print("You have selected " + decade + ".")
-    print("We will now find the top ten rated films matching your critera, with at least 1000 reviews. Please ensure your window is wide enough to display all columns.")
-    print(recommender_function(genre, length, decade))
+    print("We will now find the top ten rated films matching your critera, with at least 1000 reviews.")
+    print(tabulate(recommender_function(genre, length, decade,), headers = 'keys', tablefmt = 'psql'))
     end_function()
 
 
 
 
-         
+        
 
 
