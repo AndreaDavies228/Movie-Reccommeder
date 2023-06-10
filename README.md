@@ -1,4 +1,4 @@
-#Movie Recommender Tool
+# Movie Recommender Tool
 
 This is a movie recommender tool created in Python to be used in ther terminal.
 It recommends movies hightly rated on IMDb based on user selected critera: Genre, length and decade released.
