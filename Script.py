@@ -139,14 +139,14 @@ def end_function():
 
 running = True        
 while running == True:
-    print("Welcome to the movie recommender service. We will help you find a movie to watch from the imdb database, based on how you answer some simple questions.")
+    print("Welcome to the movie recommender service. We will help you find a movie to watch from the IMDb database, based on how you answer some simple questions.")
     genre = genre_select()
     print("You have selected " + genre + ".")
     length = length_select()
-    print("You have selected " + length + " .")
+    print("You have selected " + length + ".")
     decade = decade_select()
-    print("You have selected " + decade + " .")
-    print("We will now find the top ten rated films matching your critera, with at least 1000 reviews. Please wait.")
+    print("You have selected " + decade + ".")
+    print("We will now find the top ten rated films matching your critera, with at least 1000 reviews. Please ensure your window is wide enough to display all columns.")
     print(recommender_function(genre, length, decade))
     end_function()
 
