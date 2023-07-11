@@ -42,4 +42,4 @@ Used with permission.
 
 ## Special Thanks
 
-Bille Thompson [Purple Booth](https://github.com/PurpleBooth) - For various advice with Git LFS.
+Bille Thompson [Purple Booth](https://github.com/PurpleBooth) - For various advice.
